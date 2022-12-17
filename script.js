@@ -15,7 +15,7 @@ function findSingle(num, arr_size) {
   return -1;
 }
 
-let arr = [2, 3, 5, 4, 5, 3, 4];
-let totalElements = 7;
+let num = [2, 3, 5, 4, 5, 3, 4];
+let arr_size = 7;
 
-console.log('Single Element is ' + findSingle(arr, totalElements));
+console.log('Single Element is ' + findSingle(num, arr_size));
