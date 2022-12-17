@@ -1,3 +1,6 @@
+// Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+//You must implement a solution with a linear runtime complexity and use only constant extra space.
+
 function findSingle(num, arr_size) {
   for (let i = 0; i < arr_size; i++) {
     let count = 0;
